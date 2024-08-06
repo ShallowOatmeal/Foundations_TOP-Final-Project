@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Orbitron:wght@400..900&family=Rubik+Glitch&display=swap');
+
+
+* {
+    font-family: "Orbitron", sans-serif;
+}
+button{
+    border-radius: 15px;
+    border-style: none;
+    background-color: lightgray;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+}
+button:hover{
+    background-color: gray;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+}
+
+#display{
+    margin: 30px;
+    margin-bottom: 15px;
+    background-color: rgba(201, 194, 194, 0.973);
+    display: flex;
+    justify-content: end;
+    max-width: 80%;
+    height: 50px;
+    border-radius: 8px;
+    overflow: scroll;
+    flex-wrap: wrap;
+}
+
+.calc-container{
+    display: flex;
+    justify-content: center;
+}
+.calc-body{
+    background-color: rgb(43, 40, 70);
+    box-shadow: 10px 10px 10px black;
+    border-radius: 15px;
+    width: 260px;
+    height: 380px;
+}
+
+.button-rows{
+    margin-left: 12px;
+    display: flex;
+    flex: 3 1 1;
+}
+
+#equal{
+    width: 43%;
+}
+
